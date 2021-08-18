@@ -34,7 +34,7 @@ class Student:
                 student_num = int(input("Pick a num: "))
                 get_info_student(student_list, student_num)
                 if student_num in student_list:
-                    print("The student with ", student_num, " number already exists.")
+                    print("The student with ", student_num, " number already exists.\n Input again")
                 else:
 
                     sort_of_in4 = input("ID, Name, Date or Place (Type correctly such as 'in4'): ")
@@ -77,7 +77,7 @@ class Student:
                 if student_num in student_list:
                     print(student_list[student_num])
                 else:
-                    print("Student with that ", student_num, " doenst exists.")
+                    print("Student with that ", student_num, " does't exists.")
 
             # SORT
             elif choice == 5:
